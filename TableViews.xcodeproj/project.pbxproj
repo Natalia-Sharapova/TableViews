@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		9B25CAC6277A30E300CFF40F /* EmojiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B25CAC5277A30E300CFF40F /* EmojiCell.swift */; };
+		9B786AED2781992F00653A1F /* Screenshot04.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B786AE82781992F00653A1F /* Screenshot04.png */; };
+		9B786AEE2781992F00653A1F /* Screenshot05.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B786AE92781992F00653A1F /* Screenshot05.png */; };
+		9B786AEF2781992F00653A1F /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B786AEA2781992F00653A1F /* Screenshot02.png */; };
+		9B786AF02781992F00653A1F /* Screenshot03.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B786AEB2781992F00653A1F /* Screenshot03.png */; };
+		9B786AF12781992F00653A1F /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B786AEC2781992F00653A1F /* Screenshot01.png */; };
 		9BECABA52777308600D49F52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECABA42777308600D49F52 /* AppDelegate.swift */; };
 		9BECABA72777308600D49F52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BECABA62777308600D49F52 /* SceneDelegate.swift */; };
 		9BECABAC2777308600D49F52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BECABAA2777308600D49F52 /* Main.storyboard */; };
@@ -21,6 +26,11 @@
 
 /* Begin PBXFileReference section */
 		9B25CAC5277A30E300CFF40F /* EmojiCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiCell.swift; sourceTree = "<group>"; };
+		9B786AE82781992F00653A1F /* Screenshot04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot04.png; sourceTree = "<group>"; };
+		9B786AE92781992F00653A1F /* Screenshot05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot05.png; sourceTree = "<group>"; };
+		9B786AEA2781992F00653A1F /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
+		9B786AEB2781992F00653A1F /* Screenshot03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot03.png; sourceTree = "<group>"; };
+		9B786AEC2781992F00653A1F /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
 		9BECABA12777308600D49F52 /* TableViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BECABA42777308600D49F52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BECABA62777308600D49F52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +72,18 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		9B786AE72781992F00653A1F /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				9B786AE82781992F00653A1F /* Screenshot04.png */,
+				9B786AE92781992F00653A1F /* Screenshot05.png */,
+				9B786AEA2781992F00653A1F /* Screenshot02.png */,
+				9B786AEB2781992F00653A1F /* Screenshot03.png */,
+				9B786AEC2781992F00653A1F /* Screenshot01.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		9BECAB982777308600D49F52 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +109,7 @@
 				9BECABB82777338900D49F52 /* Model */,
 				9BECABA42777308600D49F52 /* AppDelegate.swift */,
 				9BECABA62777308600D49F52 /* SceneDelegate.swift */,
+				9B786AE72781992F00653A1F /* Screenshots */,
 				9BECABAD2777308700D49F52 /* Assets.xcassets */,
 				9BECABB22777308700D49F52 /* Info.plist */,
 			);
@@ -185,8 +208,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BECABB12777308700D49F52 /* LaunchScreen.storyboard in Resources */,
+				9B786AED2781992F00653A1F /* Screenshot04.png in Resources */,
+				9B786AF12781992F00653A1F /* Screenshot01.png in Resources */,
 				9BECABAE2777308700D49F52 /* Assets.xcassets in Resources */,
+				9B786AEE2781992F00653A1F /* Screenshot05.png in Resources */,
 				9BECABAC2777308600D49F52 /* Main.storyboard in Resources */,
+				9B786AF02781992F00653A1F /* Screenshot03.png in Resources */,
+				9B786AEF2781992F00653A1F /* Screenshot02.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
